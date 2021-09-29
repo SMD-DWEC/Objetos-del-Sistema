@@ -93,4 +93,7 @@ coches.set("ABC-DEF","Testa Turbo Volador");
 
 console.log(coches);
 
-//Objeto symbol
+//Objeto symbol - Sirve para identificar de manera única un objeto de forma numerica
+let admin = Symbol();
+let gestor = Symbol();
+if(admin===gestor) console.log("Iguales");
